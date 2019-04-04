@@ -1,6 +1,6 @@
 <template>
-    <div class="serialport-list">
-        <h3>串口列表</h3>
+    <div class="serialport-detail">
+        <h3>串口详情</h3>
         <ul>
             <li
                 class="item"
@@ -58,18 +58,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.serialport-list {
+.serialport-detail {
     padding: 10px;
     h3 {
         font-size: 24px;
-    }
-    .item {
-        line-height: 40px;
-        padding-left: 10px;
-        cursor: pointer;
-    }
-    .active {
-        background-color: aliceblue;
     }
 }
 </style>
